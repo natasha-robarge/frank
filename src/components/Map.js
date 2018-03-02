@@ -21,7 +21,7 @@ class Map extends Component {
         <Mapbox.MapView
             styleURL={Mapbox.StyleURL.Street}
             zoomLevel={15}
-            centerCoordinate={[11.256, 43.770]}
+            centerCoordinate={[-97.7431, 30.2672]}
             style={{ flex: 1 }}
         />
         <NavBar />
